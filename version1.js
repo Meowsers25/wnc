@@ -5,8 +5,15 @@ todos.push('item 4');
 todos.push('item 5');
 
 
-function displayTodos() {
-    console.log('My todos: ' + todos);
+// function displayTodos() {
+//     console.log('My todos: ' + todos);
+// }
+
+// displayTodos();
+
+function changeTodo(position, newValue) {
+    todos[position] = newValue;
+    console.log(todos);
 }
 
-displayTodos();
+changeTodo(0, 'New A');
