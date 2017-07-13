@@ -5,3 +5,8 @@ todos.push('item 4');
 todos.push('item 5');
 
 
+function displayTodos() {
+    console.log('My todos: ' + todos);
+}
+
+displayTodos();
